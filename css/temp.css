@@ -1,0 +1,93 @@
+nav{
+	
+	display:block;
+	}
+#main {
+	height: 600px;
+	width: 100%;
+}
+#banner {
+	float: right;
+	height: 60px;
+	width: 100%;
+	background-image: url(Images/top.jpg);
+}
+#bottom {
+	float: left;
+	height: 550px;
+	width: 100%;
+	background-image: url(Images/bg_top_img.jpg);
+}
+#menu{
+	float:left;
+	padding:11px 0 0 39px
+}
+ol,ul
+{
+	list-style:none
+}
+	
+li,ul,ol,nav
+{
+	background:transparent;
+	border:0 none;
+	font-size:100%;
+	margin:0;
+	padding:20;
+	border:0;
+	outline:0;
+	vertical-align:top
+	}
+	
+	#menu li {
+	float:left;
+	padding-right:17px;
+	background:url(Images/menu_line.jpg)right 0 no-repeat;
+	margin-right:15px
+}
+#menu .end {
+	background:none
+}
+#menu li a {
+	display:block;
+	font-size:15px;
+	color:#fff;
+	line-height:36px;
+	text-transform:uppercase;
+	text-decoration:none;
+	height:40px
+}
+#menu li a:hover, #menu #menu_active a {
+	color:#44fbfe
+}
+#icon {
+	float:right;
+	padding:16px 40px 0 0
+}
+#icon li {
+	float:left;
+	padding-left:15px
+}
+#icons {
+	float:right;
+	padding:20px 39px 0 0
+}
+#icons li {
+	float:left;
+	padding-left:11px
+}
+#verse {
+	background:url(Images/top_line2.gif)0 0 no-repeat;
+	font-size:46px;
+	color:#002b3a;
+	line-height:1.2em;
+	margin:25px 0 0 39px;
+	padding-top:18px;
+	letter-spacing:-2px
+}
+#verse span {
+	display:block;
+	font-size:36px;
+	line-height:1.2em;
+	margin-top:-12px
+}
